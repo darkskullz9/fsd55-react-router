@@ -2,10 +2,8 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
     return(
-        <nav className="
-            flex
-            flex-row">
-            <ul className="list-none">
+        <nav>
+            <ul>
                 <li>
                     <Link to="/">Home</Link>
                 </li>
